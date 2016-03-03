@@ -1,0 +1,20 @@
+package projectFive;
+
+public class CourseDriver {
+
+	public static void main(String[] args) {
+		
+		
+		CourseGrades GradedActivity = new CourseGrades();
+		CourseGrades PassFailExam = new CourseGrades();
+		CourseGrades Essay = new CourseGrades();
+		CourseGrades FinalExam = new CourseGrades();
+		
+		GradedActivity.setLab(57);
+		PassFailExam.setPassFailExam(100);
+		Essay.setEssay(100);
+		FinalExam.setFinalExam(finalExam);
+		
+	}
+
+}

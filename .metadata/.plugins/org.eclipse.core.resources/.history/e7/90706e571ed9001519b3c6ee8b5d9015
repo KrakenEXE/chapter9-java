@@ -1,0 +1,25 @@
+package projectFive;
+
+public class CourseDriver extends FinalExam {
+
+	public static void main(String[] args) {
+		CourseGrades gradeOutput = new CourseGrades();
+		GradedActivity GradedActivity = new GradedActivity();
+		CourseGrades PassFailExam = new CourseGrades();
+		CourseGrades Essay = new CourseGrades();
+		CourseGrades FinalExam = new CourseGrades();
+		
+		GradedActivity grades = null;
+		PassFailExam passFailExam = null;
+		Essay essay = 0;
+		FinalExam finalExam = 0;
+		
+		grades.setLab(57);
+		passFailExam.setPassFailExam(100);
+		essay.setEssay(100);
+		finalExam.setFinalExam(97);
+		
+		System.out.print(gradeOutput.toString());
+	}
+
+}

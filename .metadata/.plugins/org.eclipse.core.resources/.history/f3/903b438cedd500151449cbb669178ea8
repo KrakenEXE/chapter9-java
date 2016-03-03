@@ -1,0 +1,19 @@
+package projectOne;
+
+public class DriverClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// Create production object
+		
+		int day = 1;
+		int night = 2;
+		
+		
+		ProductionWorker samTheWorker = new ProductionWorker(day, 10.50);
+		
+		System.out.print(samTheWorker.get_employeeNumber());
+	}
+	
+}

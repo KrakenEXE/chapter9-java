@@ -1,0 +1,28 @@
+
+public class ShiftSupervisor {
+
+	private double _annualSalary;
+	private int _annualProduction;
+	
+	public ShiftSupervisor(String _employeeName, String _employeeNumber, String _hireDate, double _annualSalary, int annualProduction){
+		
+		set_annualProduction(annualProduction);
+		set_annualSalary(_annualSalary);
+	}
+
+	public double get_annualSalary() {
+		return _annualSalary;
+	}
+
+	public void set_annualSalary(double _annualSalary) {
+		this._annualSalary = _annualSalary;
+	}
+
+	public int get_annualProduction() {
+		return _annualProduction;
+	}
+
+	public void set_annualProduction(int _annualProduction) {
+		this._annualProduction = _annualProduction;
+	}
+}

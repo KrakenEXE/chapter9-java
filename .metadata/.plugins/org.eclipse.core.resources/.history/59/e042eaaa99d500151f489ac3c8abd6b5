@@ -1,0 +1,6 @@
+package projectOne;
+
+public class Employee {
+
+	private string _employeeName;
+}

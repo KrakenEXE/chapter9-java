@@ -1,0 +1,15 @@
+package projectFive;
+
+public class Essay extends PassFailExam{
+
+	PassFailExam PassFailExamObject;
+	int score;
+	
+	public Essay(){
+		
+	}
+public void setEssay(Essay Essay){
+		
+		grades[2] = Essay;
+	}
+}

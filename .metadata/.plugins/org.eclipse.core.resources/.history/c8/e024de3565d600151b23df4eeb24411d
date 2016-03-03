@@ -1,0 +1,16 @@
+import projectOne.ProductionWorker;
+
+public class DriverClass {
+	// TODO Auto-generated method stub
+	
+			// Create production object
+			
+			int day = 1;
+			int night = 2;
+			
+			
+			TeamLeader leader= new TeamLeader("Gerald", "345-B", "March 20, 1995", 30000.00, 450000);
+			
+
+		
+}

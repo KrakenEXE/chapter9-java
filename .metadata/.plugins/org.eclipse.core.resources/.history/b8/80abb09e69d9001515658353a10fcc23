@@ -1,0 +1,13 @@
+package projectFive;
+
+public class FinalExam extends Essay{
+
+	public FinalExam(){
+		
+	}
+public void setFinalExam(FinalExam FinalExam){
+		
+		grades[3] = FinalExam;
+	}
+
+}

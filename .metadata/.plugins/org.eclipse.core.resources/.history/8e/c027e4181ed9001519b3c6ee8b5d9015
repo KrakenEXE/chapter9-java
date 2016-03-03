@@ -1,0 +1,10 @@
+package projectFive;
+
+public class FinalExam extends CourseGrades{
+
+public void setFinalExam(double FinalExam){
+		
+		grades[3] = FinalExam;
+	}
+
+}

@@ -1,0 +1,21 @@
+package projectFive;
+
+public class CourseGrades {
+
+	public GradedActivity[] grades = new GradedActivity[4]; 
+	double labs, exam, essay, finalExam;
+	//general constructor for CourseGrades
+	
+	public CourseGrades(){
+		
+	}	
+	
+	public String toString(){
+		
+		String str = "Your score for your labs was "+grades[0].getScore()+
+				"\nYour score for your Pass Fail exam was "+grades[1]+"\nYour score for your Essay was "+grades[2]+
+				"\nYour score for your Final Exam was "+grades[3];
+		
+		return str;
+	}
+}

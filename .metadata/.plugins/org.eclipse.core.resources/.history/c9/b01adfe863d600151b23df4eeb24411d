@@ -1,0 +1,5 @@
+
+public class ShiftSupervisor {
+
+	private double _annualSalary;
+}

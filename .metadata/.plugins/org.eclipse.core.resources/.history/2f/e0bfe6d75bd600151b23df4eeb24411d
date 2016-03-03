@@ -1,0 +1,10 @@
+package projectFour;
+
+public class EssayDriver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Essay thisEssay = new Essay();
+	}
+
+}

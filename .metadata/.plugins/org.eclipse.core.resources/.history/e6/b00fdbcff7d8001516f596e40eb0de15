@@ -1,0 +1,16 @@
+package projectFive;
+
+public class CourseGrades {
+
+	double[] GradedActivity = new double[4]; 
+	
+	
+	
+	//methods described in details
+	
+	public setLab(double[] gradedActivity){
+		
+	}
+	
+	
+}

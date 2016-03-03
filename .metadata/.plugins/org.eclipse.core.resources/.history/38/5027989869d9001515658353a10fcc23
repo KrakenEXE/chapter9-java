@@ -1,0 +1,23 @@
+package projectFive;
+
+public class Essay extends PassFailExam{
+
+	Essay EssayObjectt;
+	int score;
+	
+	public Essay(){
+		
+	}
+public void setEssay(Essay Essay){
+	EssayObject = new Essay();
+	EssayObject.setScore(75);
+	
+		grades[2] = Essay;
+	}
+public int getScore() {
+	return score;
+}
+public void setScore(int score) {
+	this.score = score;
+}
+}

@@ -1,0 +1,14 @@
+package projectFour;
+
+public class Essay extends GradedActivity{
+
+	private int _grammar;
+	private int _spelling;
+	private int _length;
+	private int _content;
+	
+	public Essay(grammar, spelling, length, content){
+		
+	}
+	
+}

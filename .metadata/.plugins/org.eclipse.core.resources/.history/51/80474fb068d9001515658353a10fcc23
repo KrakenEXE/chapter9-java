@@ -1,0 +1,13 @@
+package projectFive;
+
+public class GradedActivity extends CourseGrades{
+
+	public GradedActivity(){
+		
+	}
+	public void setLab(double GradedActivity){
+		
+		grades[0] = GradedActivity;
+	}
+	
+}

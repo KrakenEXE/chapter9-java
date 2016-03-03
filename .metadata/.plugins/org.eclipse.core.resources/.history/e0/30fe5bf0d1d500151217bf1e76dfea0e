@@ -1,0 +1,15 @@
+package projectOne;
+
+public class ProductionWorker extends Employee{
+
+	private int _hours;
+	private double _payRate;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	
+	
+	
+}

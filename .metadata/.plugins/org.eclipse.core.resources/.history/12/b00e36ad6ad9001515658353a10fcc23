@@ -1,0 +1,18 @@
+package projectFive;
+
+public class FinalExam extends Essay{
+
+	FinalExam FinalExamObject;
+	int score;
+	
+	public FinalExam(){
+		
+	}
+public void setFinalExam(FinalExam FinalExam){
+	FinalExamObject = new FinalExam();
+	FinalExamObject.setScore(75);
+	
+		grades[3] = FinalExam;
+	}
+
+}

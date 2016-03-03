@@ -1,0 +1,10 @@
+package projectOne;
+
+public class Employee {
+
+	private String _employeeName;
+	private String _employeeNumber;
+	private String _hireDate;
+	
+	public Employee()
+}

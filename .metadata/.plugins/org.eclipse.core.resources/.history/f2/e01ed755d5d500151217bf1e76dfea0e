@@ -1,0 +1,9 @@
+package projectOne;
+
+public class ProductionWorker extends Employee{
+
+	private int _hours;
+	private double _payRate;
+
+	
+}

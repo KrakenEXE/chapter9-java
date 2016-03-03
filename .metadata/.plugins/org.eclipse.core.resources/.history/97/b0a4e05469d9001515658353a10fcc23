@@ -1,0 +1,12 @@
+package projectFive;
+
+public class PassFailExam extends GradedActivity{
+
+	public PassFailExam(){
+		
+	}
+	public void setPassFailExam(PassFailExam PassFailExam){
+		
+		grades[1] = PassFailExam;
+	}
+}

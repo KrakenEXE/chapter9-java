@@ -1,0 +1,45 @@
+package projectFive;
+
+public class CourseGrades {
+
+	double[] grades = new double[4]; 
+	double labs, exam, essay, finalExam;
+	//general constructor for CourseGrades
+	
+	public CourseGrades(){
+		grades[0] = GradedActivity;
+		grades[1] = PassFailExam;
+	}
+	
+	
+	//methods described in details
+	
+	public void setLab(double GradedActivity){
+		
+		grades[0] = GradedActivity;
+	}
+	
+	public void setPassFailExam(double PassFailExam){
+		
+		grades[1] = PassFailExam;
+	}
+	
+	public void setEssay(double Essay){
+		
+		grades[2] = Essay;
+	}
+	
+	public void setFinalExam(double FinalExam){
+		
+		grades[3] = FinalExam;
+	}
+	
+	public String toString(){
+		
+		String str = "Your score for your labs was "+grades[0]+
+				"\nYour score for your Pass Fail exam was "+grades[1]+"\nYour score for your Essay was "+grades[2]+
+				"\nYour score for your Final Exam was "+grades[3];
+		
+		return str;
+	}
+}

@@ -1,0 +1,25 @@
+package projectFive;
+
+public class CourseDriver {
+
+	public static void main(String[] args) {
+		
+		GradedActivity GradedActivity = new GradedActivity();
+		CourseGrades PassFailExam = new CourseGrades();
+		CourseGrades Essay = new CourseGrades();
+		CourseGrades FinalExam = new CourseGrades();
+		
+		GradedActivity GradedActivity;
+		PassFailExam passFailExam;
+		Essay essay;
+		FinalExam finalExam;
+		
+		GradedActivity.setLab(57);
+		passFailExam.setPassFailExam(100);
+		essay.setEssay(100);
+		finalExam.setFinalExam(97);
+		
+		System.out.print(GradedActivity.toString());
+	}
+
+}

@@ -1,0 +1,9 @@
+package projectFive;
+
+public class Essay extends CourseGrades{
+
+public void setEssay(double Essay){
+		
+		grades[2] = Essay;
+	}
+}

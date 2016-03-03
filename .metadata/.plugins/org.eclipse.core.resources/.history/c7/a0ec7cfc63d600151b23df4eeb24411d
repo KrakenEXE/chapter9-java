@@ -1,0 +1,16 @@
+import projectOne.ProductionWorker;
+
+public class DriverClass {
+	// TODO Auto-generated method stub
+	
+			// Create production object
+			
+			int day = 1;
+			int night = 2;
+			
+			
+			ProductionWorker samTheWorker = new ProductionWorker(day, 10.50);
+			
+			samTheWorker.getEmployeeInfo();
+		
+}

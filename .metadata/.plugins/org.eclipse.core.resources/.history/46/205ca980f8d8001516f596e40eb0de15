@@ -1,0 +1,23 @@
+package projectFive;
+
+public class CourseGrades {
+
+	double[] grades = new double[4]; 
+	
+	//general constructor for CourseGrades
+	
+	
+	
+	
+	//methods described in details
+	
+	public double[] setLab(double grades){
+		
+		
+		return grades;
+		
+	}
+	
+	public setPassFailExam
+	
+}

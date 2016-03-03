@@ -1,0 +1,10 @@
+
+public class ShiftSupervisor {
+
+	private double _annualSalary;
+	private int _annualProduction;
+	
+	public ShiftSupervisor(String _employeeName, String _employeeNumber, String _hireDate, double _annualSalary, int annualProduction){
+		
+	}
+}

@@ -1,0 +1,24 @@
+package projectFour;
+
+public class GradedActivity {
+
+	private int _finalGrade;
+	
+	public GradedActivity(){
+		
+	}
+	
+	public GradedActivity(int grammar, int spelling, int length, int content){
+		
+		set_finalGrade( grammar+spelling+length+content);
+		
+	}
+
+	public int get_finalGrade() {
+		return _finalGrade;
+	}
+
+	public void set_finalGrade(int _finalGrade) {
+		this._finalGrade = _finalGrade;
+	}
+}

@@ -1,0 +1,9 @@
+package projectThree;
+
+public class TeamLeader {
+
+	private int _requiredTraining;
+	private int _attendedTraining;
+	private double _monthlyBonus;
+	
+}

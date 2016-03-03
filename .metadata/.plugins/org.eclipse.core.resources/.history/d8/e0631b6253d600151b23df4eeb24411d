@@ -1,0 +1,19 @@
+package projectThree;
+
+public class DriverClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+				// Create production object
+				
+				int day = 1;
+				int night = 2;
+				
+				
+				ProductionWorker productionWorker = new ProductionWorker(day, 10.50, );
+				TeamLeader teamLeader = new TeamLeader();
+				productionWorker.getEmployeeInfo();
+	}
+
+}

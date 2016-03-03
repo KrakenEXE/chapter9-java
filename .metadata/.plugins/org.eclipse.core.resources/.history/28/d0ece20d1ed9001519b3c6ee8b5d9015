@@ -1,0 +1,9 @@
+package projectFive;
+
+public class PassFailExam extends CourseGrades{
+
+	public void setPassFailExam(double PassFailExam){
+		
+		grades[1] = PassFailExam;
+	}
+}

@@ -1,0 +1,17 @@
+package projectThree;
+
+public class TeamLeader extends Employee {
+
+	public TeamLeader(int _requiredTraining, int _attendedTraining, double _monthlyBonus, String _employeeName, String _employeeNumber, String _hireDate) {
+		super(_employeeName, _employeeNumber, _hireDate);
+		this._requiredTraining = _requiredTraining;
+		this._attendedTraining = _attendedTraining;
+		this._monthlyBonus = _monthlyBonus;
+	}
+	private int _requiredTraining;
+	private int _attendedTraining;
+	private double _monthlyBonus;
+	
+	
+	
+}

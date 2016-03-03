@@ -1,0 +1,7 @@
+package projectFour;
+
+public class Essay extends GradedActivity{
+
+	
+	
+}

@@ -1,0 +1,17 @@
+package projectFive;
+
+public class PassFailExam extends GradedActivity{
+
+	GradedActivity GradedActivityObject;
+	int score;
+	
+	public PassFailExam(){
+		
+	}
+	public void setPassFailExam(PassFailExam PassFailExam){
+		GradedActivityObject = new GradedActivity();
+		GradedActivityObject.setScore(75);
+		
+		grades[1] = PassFailExam;
+	}
+}

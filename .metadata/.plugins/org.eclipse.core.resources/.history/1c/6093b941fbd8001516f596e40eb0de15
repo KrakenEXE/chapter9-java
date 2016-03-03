@@ -1,0 +1,39 @@
+package projectFive;
+
+public class CourseGrades {
+
+	double[] grades = new double[4]; 
+	double labs, exam, essay, finalExam;
+	//general constructor for CourseGrades
+	
+	
+	
+	
+	//methods described in details
+	
+	public void setLab(double GradedActivity){
+		
+		grades[0] = GradedActivity;
+	}
+	
+	public void setPassFailExam(double PassFailExam){
+		
+		grades[1] = PassFailExam;
+	}
+	
+	public void setEssay(double Essay){
+		
+		grades[2] = Essay;
+	}
+	
+	public void setFinalExam(double FinalExam){
+		
+		grades[3] = FinalExam;
+	}
+	
+	public String toString(){
+		
+		
+		return str;
+	}
+}

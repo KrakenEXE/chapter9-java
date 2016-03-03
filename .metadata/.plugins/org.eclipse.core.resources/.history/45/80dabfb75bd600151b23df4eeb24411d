@@ -1,0 +1,19 @@
+package projectFour;
+
+public class Essay extends GradedActivity{
+
+	private int _grammar;
+	private int _spelling;
+	private int _length;
+	private int _content;
+	
+	public Essay(int grammar,int spelling,int length,int content){
+		super(grammar, spelling, length, content);
+	}
+	
+	public String toString(){
+		String str = ("You got a total score of "+get_finalGrade()+" for a letter grade of "+);
+		return str;
+	}
+	
+}
